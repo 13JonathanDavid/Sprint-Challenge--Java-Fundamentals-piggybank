@@ -20,7 +20,7 @@ public class Main {
 
         for (Coin i : piggyBank) {
             System.out.println(i.toString());
-            total += i.getTotalValue();
+            total += i.getTotal();
         }
         System.out.println();
         System.out.println("My piggybank has: " + fp.format(total));
